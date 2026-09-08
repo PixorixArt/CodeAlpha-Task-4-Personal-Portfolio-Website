@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixorix Art and Code | Software Engineering Student & Front-End Developer</title>
+  <meta name="description" content="Portfolio of Pixorix Art and Code — a Software Engineering student and front-end developer learning full-stack web development, currently a Front-End Development Intern at CodeAlpha. Explore projects built with HTML, CSS and JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Pixorix Art and Code — Home">
+  
+        <img src="logo.png" alt="Pixorix Art and Code logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+        <span class="logo-fallback" style="display:none;">
+          <span class="logo-mark">PX</span>
+        </span>
+        <span class="logo-text">Pixorix <em>Art and Code</em></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#journey" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content reveal">
+          <span class="badge">
+            <span class="badge-dot"></span>
+            Front-End Development Intern — CodeAlpha
+          </span>
+
+          <h1 class="hero-title">Pixorix Art and Code</h1>
+
+          <p class="hero-subtitle">Software Engineering Student &amp; Front-End Developer</p>
+
+          <p class="hero-role">
+            <span id="typedRole"></span><span class="cursor" aria-hidden="true">|</span>
+          </p>
+
+          <p class="hero-text">
+            I'm a Software Engineering student building a strong foundation in front-end development
+            while learning full-stack web development one project at a time. I like turning ideas into
+            working interfaces, practicing JavaScript through real builds, and picking up new tools by
+            actually using them. Currently, I'm applying what I learn as a Front-End Development Intern
+            at CodeAlpha, and steadily working toward becoming a well-rounded full-stack developer.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="code-card">
+            <div class="code-card-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-card-title">developer.js</span>
+            </div>
+            <pre class="code-card-body"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Pixorix Art and Code"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Front-End Developer"</span>,
+  <span class="c-prop">status</span>: <span class="c-str">"Learning Full-Stack Dev"</span>,
+  <span class="c-prop">internship</span>: <span class="c-str">"CodeAlpha"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>,
+    <span class="c-str">"JavaScript"</span>, <span class="c-str">"React"</span>],
+  <span class="c-prop">mindset</span>: <span class="c-str">"build, break, learn"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section about">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>About Me</h2>
+          <p class="section-lead">A student developer learning by building.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Software Engineering student with a growing focus on front-end development.
+              My interest in building things that live on the web led me to spend most of my time
+              practicing HTML, CSS and JavaScript through hands-on projects rather than just theory.
+            </p>
+            <p>
+              I'm currently learning full-stack web development, expanding from the front end into
+              how applications work end to end. I enjoy the process of experimenting with new tools,
+              debugging my own mistakes, and rebuilding small pieces of interfaces I find interesting
+              until I understand how they work.
+            </p>
+            <p>
+              Every project in this portfolio reflects a step in that learning process — a mix of
+              coursework, self-study, and curiosity-driven practice that I'm continuing to build on.
+            </p>
+          </div>
+
+          <div class="about-cards reveal">
+            <div class="glass-card about-card">
+              <h3>Education</h3>
+              <p>Software Engineering Student</p>
+            </div>
+            <div class="glass-card about-card">
+              <h3>Focus</h3>
+              <p>Front-End Development</p>
+            </div>
+            <div class="glass-card about-card">
+              <h3>Currently Learning</h3>
+              <p>Full-Stack Web Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="section experience">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>Experience</h2>
+          <p class="section-lead">Practical experience alongside my studies.</p>
+        </div>
+
+        <div class="experience-card glass-card reveal">
+          <div class="experience-top">
+            <div>
+              <h3 class="experience-role">Front-End Development Intern</h3>
+              <p class="experience-company">CodeAlpha</p>
+            </div>
+            <span class="status-pill">Current Internship</span>
+          </div>
+
+          <p class="experience-desc">
+            I'm currently gaining practical, hands-on experience as a Front-End Development Intern
+            at CodeAlpha. This internship gives me the opportunity to strengthen my frontend skills
+            through real, project-based tasks — applying HTML, CSS and JavaScript to build responsive
+            interfaces, practicing problem-solving, and learning how to approach frontend work in a
+            more structured, professional way.
+          </p>
+
+          <div class="experience-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Project-Based Learning</span>
+          </div>
+
+          <!-- Add CodeAlpha internship certificate link here -->
+          <a href="#" class="certificate-link">
+            View Internship Certificate
+            <span class="arrow-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="section skills">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>Skills</h2>
+          <p class="section-lead">Technologies I use and continue to learn.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>HTML</h3>
+            <p>Structuring accessible, semantic web content.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">{ }</div>
+            <h3>CSS</h3>
+            <p>Styling responsive, modern interfaces from scratch.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interactivity and logic to the front end.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">C++</div>
+            <h3>C++</h3>
+            <p>Core programming and problem-solving fundamentals.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">DB</div>
+            <h3>SQL</h3>
+            <p>Working with structured data and queries.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">GH</div>
+            <h3>Git / GitHub</h3>
+            <p>Version control and collaborative workflows.</p>
+          </div>
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">⚛</div>
+            <h3>React</h3>
+            <p>Currently exploring as part of my full-stack learning path.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="section projects">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>Projects</h2>
+          <p class="section-lead">A selection of front-end projects I've built while learning.</p>
+        </div>
+
+        <div class="filter-bar reveal" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+          <button class="filter-btn" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="learning">Learning Projects</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- PROJECT 1 -->
+          <article class="project-card glass-card reveal" data-category="javascript frontend">
+            <div class="project-image">
+              <img src="imageGallery.png" 
+             alt="Responsive Image Gallery project">
+            </div>
+            <div class="project-body">
+              <h3>Responsive Image Gallery</h3>
+              <p>
+                A responsive image gallery featuring a dynamic grid layout, lightbox viewing,
+                next/previous navigation, and category filtering. Built with a focus on smooth
+                transitions, hover interactions, and a fully responsive layout across devices.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- actual Live Demo link -->
+                <a href="https://pixorixart.github.io/CodeAlpha_task1_Image-Gallery/" class="btn btn-small btn-primary">View Project</a>
+                <!-- actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/CodeAlpha_task1_Image-Gallery" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card glass-card reveal" data-category="javascript frontend">
+            <div class="project-image">
+              <img src="Calculator.png" 
+             alt="Responsive Calculator project">
+            </div>
+            <div class="project-body">
+              <h3>Modern JavaScript Calculator</h3>
+              <p>
+                A functional calculator supporting core arithmetic operations, real-time display
+                updates, decimal input, clear and delete functionality, and keyboard support.
+                Focused on clean DOM manipulation and responsive UI behavior.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!--actual Live Demo link -->
+                <a href="https://pixorixart.github.io/CodeAlpha-task-02-Calculator/" class="btn btn-small btn-primary">View Project</a>
+                <!--actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/CodeAlpha-task-02-Calculator" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project-card glass-card reveal" data-category="javascript frontend">
+            <div class="project-image">
+              <img src="MusicPlayer.png" 
+             alt="Responsive Music player project">
+            </div>
+            <div class="project-body">
+              <h3>JavaScript Music Player</h3>
+              <p>
+                A browser-based music player built with the HTML5 Audio API, featuring play/pause,
+                next/previous controls, a progress bar, volume control, playlist support, and
+                autoplay — with song and artist details displayed in a clean interface.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!--actual Live Demo link -->
+                <a href="https://pixorixart.github.io/CodeAlpha-task-03-Music-Player/" class="btn btn-small btn-primary">View Project</a>
+                <!--actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/CodeAlpha-task-03-Music-Player" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="project-card glass-card reveal" data-category="javascript learning">
+            <div class="project-image">
+             <img src="robot.png" 
+             alt="Responsive Robot project">
+            </div>
+            <div class="project-body">
+              <h3>JavaScript Learning Robot</h3>
+              <p>
+                A self-learning project built while studying Chapter 7 of <em>Eloquent JavaScript</em>.
+                It features a robot-style interface for task-oriented interactions, created to turn
+                the chapter's concepts into a working project through implementation and experimentation.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!--actual Live Demo link -->
+                <a href="https://pixorixart.github.io/Robot-Project-Eloquent-js-chp-07/" class="btn btn-small btn-primary">View Project</a>
+                <!--actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/Robot-Project-Eloquent-js-chp-07" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5 -->
+          <article class="project-card glass-card reveal" data-category="html-css frontend">
+            <div class="project-image">
+            <img src="hotelProject.png" 
+             alt="Responsive hotel landing project">
+            </div>
+            <div class="project-body">
+              <h3>Hotel Landing Page</h3>
+              <p>
+                A clean, structured hotel landing page focused on visual presentation and layout.
+                Includes a hero section, organized content sections, and a fully responsive design
+                built entirely with HTML and CSS.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <!--actual Live Demo link -->
+                <a href=" https://pixorixart.github.io/Html-and-Css-Restuarant-Practice-projects/" class="btn btn-small btn-primary">View Project</a>
+                <!--actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/Html-and-Css-Restuarant-Practice-projects" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6 -->
+          <article class="project-card glass-card reveal" data-category="html-css frontend">
+            <div class="project-image">
+              <img src="youtubePageUI.png" 
+             alt="Responsive youtube page UI">
+            </div>
+            <div class="project-body">
+              <h3>YouTube Front Page UI</h3>
+              <p>
+                A frontend practice project recreating a video-platform style front page. Focused on
+                page structure, navigation, content cards, spacing, and responsive layout using HTML
+                and CSS. Built purely as a UI recreation for practice, not an official product.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <!--actual Live Demo link -->
+                <a href=" https://pixorixart.github.io/Html-and-Css-Youtube-App-Practice-projects/" class="btn btn-small btn-primary">View Project</a>
+                <!--actual GitHub Repository link -->
+                <a href="https://github.com/PixorixArt/Html-and-Css-Youtube-App-Practice-projects" class="btn btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LEARNING JOURNEY SECTION ==================== -->
+    <section id="journey" class="section journey">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>My Learning Journey</h2>
+          <p class="section-lead">How I've been building my skills, step by step.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>Software Engineering</h3>
+              <p>Building programming and software development fundamentals as a student.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>Front-End Development</h3>
+              <p>Practicing HTML, CSS and JavaScript to build responsive interfaces.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>JavaScript Learning</h3>
+              <p>Strengthening JavaScript fundamentals through practical, hands-on projects.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>Eloquent JavaScript</h3>
+              <p>Studying concepts from <em>Eloquent JavaScript</em> and implementing them in real projects.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>CodeAlpha Internship</h3>
+              <p>Applying frontend knowledge through practical, project-based internship tasks.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <h3>Full-Stack Goal</h3>
+              <p>Continuing to build toward becoming a well-rounded full-stack developer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-cta reveal">
+          <!--
+            RESUME 
+          -->
+          <a href="myresume.pdf" class="btn btn-secondary" download>View Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section contact">
+      <div class="section-container">
+        <div class="section-heading reveal">
+          <h2>Let's Connect</h2>
+          <p class="section-lead">Open to internship opportunities, freelance work, and collaboration.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-links reveal">
+            <!--actual LinkedIn profile URL -->
+            <a href="https://www.linkedin.com/in/
+pixorix-art-and-code-6314593b5
+" class="contact-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">in</span>
+              <span>LinkedIn</span>
+            </a>
+            <!--actual GitHub profile URL -->
+            <a href="https://github.com/PixorixArt" class="contact-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">gh</span>
+              <span>GitHub</span>
+            </a>
+            <!--actual Instagram profile URL -->
+            <a href="https://www.instagram.com/pixorix_code/" class="contact-link" aria-label="Instagram profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">ig</span>
+              <span>Instagram</span>
+            </a>
+            <!--actual Fiverr profile URL -->
+            <a href="https://www.fiverr.com/sellers/pixorix_/edit" class="contact-link" aria-label="Fiverr profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">fv</span>
+              <span>Fiverr</span>
+            </a>
+            <!--actual Upwork profile URL -->
+            <a href="https://www.upwork.com/freelancers/~019f0d015d59b63585" class="contact-link" aria-label="Upwork profile" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">up</span>
+              <span>Upwork</span>
+            </a>
+            <!-- Mail-->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pixorixart@gmail.com" class="contact-link" aria-label="Email" target="_blank" rel="noopener noreferrer"> 
+              <span class="contact-icon">@</span>
+              <span>Email</span>
+            </a>
+          </div>
+
+          <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+            <!-- NOTE: There is no backend. This form does not actually send messages.
+                 Real email delivery requires backend or email-service integration
+                 (e.g. Formspree, EmailJS, or a custom server). -->
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <span class="form-error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..."></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+
+            <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pixorix Art and Code. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
