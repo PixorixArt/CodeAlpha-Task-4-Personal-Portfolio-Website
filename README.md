@@ -118,7 +118,7 @@ Screenshots of the portfolio can be added here to give visitors a quick look at 
 ## 🌐 Live Website
 
 **Live Demo:**
-Add your deployed GitHub Pages link here.
+ [![live Demo](https://pixorixart.github.io/CodeAlpha-Task-4-Personal-Portfolio-Website/)
 
 ---
 
@@ -134,12 +134,12 @@ portfolio/
 │
 └── assets/
     └── projects/
-        ├── image-gallery.png
+        ├── imageGallery.png
         ├── calculator.png
-        ├── music-player.png
+        ├── MusicPlayer.png
         ├── robot.png
-        ├── hotel.png
-        └── youtube.png
+        ├── hotelProject.png
+        └── youtubePageUI.png
 ```
 
 ---
